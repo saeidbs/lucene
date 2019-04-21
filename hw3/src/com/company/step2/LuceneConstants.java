@@ -1,4 +1,4 @@
-package com.company;
+package com.company.step2;
 
 public class LuceneConstants {
     public static final String CONTENTS = "contents";

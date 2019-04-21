@@ -14,8 +14,8 @@ import org.apache.lucene.search.TopDocs;
 public class LuceneTester {
 
     String indexDir = "E:\\Lucene\\Index";
-    String dataDir = "E:\\Lucene\\Data";
-//    Indexer indexer;
+    String dataDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3\\Data";
+   Indexer indexer;
     Searcher searcher;
 
     public static void main(String[] args) {
