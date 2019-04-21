@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee1848a-3f7a-4dc0-bc66-a2c051cfe0c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/step2/LuceneTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/step2/Searcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hw3/com/company/LuceneTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw3/com/company/LuceneTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DocIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DocIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.frq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.nrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.prx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.tii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/_1.tis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/Index/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/segments_2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LuceneTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LuceneTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/step2/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/step2/Indexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/step2/LuceneConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/step2/LuceneConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/step2/TextFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/step2/TextFileFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/step2/LuceneTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/step2/LuceneTester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/step2/TextFileFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
@@ -90,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/step2/LuceneTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LuceneTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="79" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="79" />
+            <state relative-caret-position="220">
+              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,15 +130,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/DocIndexer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Searcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7104#7122#0" expanded="true" />
-                <element signature="e#7683#7698#0" expanded="true" />
-                <element signature="e#9438#9456#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +152,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>indexDirectory</find>
       <find>dataDir</find>
     </findStrings>
   </component>
@@ -165,13 +166,13 @@
         <option value="$PROJECT_DIR$/src/com/company/LuceneConstants.java" />
         <option value="$PROJECT_DIR$/src/com/company/Searcher.java" />
         <option value="$PROJECT_DIR$/src/com/company/Indexer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/LuceneTester.java" />
         <option value="$PROJECT_DIR$/src/com/company/DocIndexer.java" />
         <option value="$PROJECT_DIR$/src/com/company/step2/LuceneConstants.java" />
         <option value="$PROJECT_DIR$/src/com/company/step2/TextFileFilter.java" />
         <option value="$PROJECT_DIR$/src/com/company/step2/Indexer.java" />
         <option value="$PROJECT_DIR$/src/com/company/step2/Searcher.java" />
         <option value="$PROJECT_DIR$/src/com/company/step2/LuceneTester.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LuceneTester.java" />
       </list>
     </option>
   </component>
@@ -246,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LuceneTester (1)">
+  <component name="RunManager" selected="Application.LuceneTester">
     <configuration name="LuceneTester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.step2.LuceneTester" />
       <module name="hw3" />
@@ -261,11 +262,11 @@
       </method>
     </configuration>
     <configuration name="LuceneTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.LuceneTester" />
+      <option name="MAIN_CLASS_NAME" value="com.company.anotherStep.LuceneTester" />
       <module name="hw3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.anotherStep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,8 +291,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LuceneTester (1)" />
         <item itemvalue="Application.LuceneTester" />
+        <item itemvalue="Application.LuceneTester (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -306,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555827580350</updated>
-      <workItem from="1555827581812" duration="2970000" />
+      <workItem from="1555827581812" duration="3948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2970000" />
+    <option name="totallyTimeSpent" value="3948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -322,7 +323,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -334,7 +335,7 @@
       <window_info anchor="bottom" id="ANTLR Preview" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3391116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,16 +355,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DocIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
@@ -387,38 +378,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LuceneConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/step2/TextFileFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/step2/LuceneConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/step2/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/step2/TextFileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -433,27 +417,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/step2/LuceneConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LuceneTester.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Searcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="79" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="79" />
+        <state relative-caret-position="255">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LuceneConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/step2/LuceneTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LuceneTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

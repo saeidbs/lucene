@@ -1,4 +1,4 @@
-package com.company;
+package com.company.anotherStep;
 import java.io.*;
 import java.util.*;
 import org.apache.lucene.analysis.Analyzer;

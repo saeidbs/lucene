@@ -1,4 +1,4 @@
-package com.company;
+package com.company.anotherStep;
 
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ import org.apache.lucene.search.TopDocs;
 
 public class LuceneTester {
 
-    String indexDir = "E:\\Lucene\\Index";
+    String indexDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3\\Index";
     String dataDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3\\Data";
    Indexer indexer;
     Searcher searcher;
@@ -22,8 +22,10 @@ public class LuceneTester {
         LuceneTester tester;
         try {
             tester = new LuceneTester();
-            tester.sortUsingRelevance("cord3.txt");
-            tester.sortUsingIndex("cord3.txt");
+//            tester.sortUsingRelevance("cord3.txt");
+//            tester.sortUsingIndex("cord3.txt");
+            tester.sortUsingRelevance("total.txt");
+
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
