@@ -24,7 +24,7 @@ public class LuceneTester {
             tester = new LuceneTester();
 //            tester.sortUsingRelevance("cord3.txt");
 //            tester.sortUsingIndex("cord3.txt");
-            tester.sortUsingRelevance("total.txt");
+            tester.sortUsingRelevance("enwiki-20190401-pages-articles-multistream-index2.txt");
 
         } catch (IOException e) {
             e.printStackTrace();

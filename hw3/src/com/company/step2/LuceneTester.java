@@ -18,9 +18,9 @@ public class LuceneTester {
         LuceneTester tester;
         try {
             tester = new LuceneTester();
-            tester.createIndex();
-            tester.search("Lapithes");
-            tester.search("Total");
+           // tester.createIndex();
+            tester.search("total");
+           // tester.search("Total");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
@@ -43,12 +43,18 @@ public class LuceneTester {
         searcher = new Searcher(indexDir);
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
+
+
         long endTime = System.currentTimeMillis();
 
         System.out.println(hits.totalHits +
                 " documents found. Time :" + (endTime - startTime));
         for(ScoreDoc scoreDoc : hits.scoreDocs) {
             Document doc = searcher.getDocument(scoreDoc);
+
+            //Saeid add this
+            System.out.println(scoreDoc.score);
+
             System.out.println("File: "
                     + doc.get(LuceneConstants.FILE_PATH));
         }
