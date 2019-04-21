@@ -52,6 +52,7 @@ public class LuceneTester {
         for(ScoreDoc scoreDoc : hits.scoreDocs) {
             Document doc = searcher.getDocument(scoreDoc);
 
+            //Saeid add this
             System.out.println(scoreDoc.score);
 
             System.out.println("File: "
