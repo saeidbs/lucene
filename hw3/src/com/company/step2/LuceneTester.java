@@ -18,9 +18,10 @@ public class LuceneTester {
         LuceneTester tester;
         try {
             tester = new LuceneTester();
-           // tester.createIndex();
-            tester.search("total");
-           // tester.search("Total");
+           tester.createIndex();
+           // tester.search("total");
+            tester.search("</body>");
+
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
