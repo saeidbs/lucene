@@ -9,8 +9,8 @@ import org.apache.lucene.search.TopDocs;
 
 public class LuceneTester {
 
-    String indexDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3\\Index";
-    String dataDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3\\Data";
+    String indexDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\Index";
+    String dataDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\Data";
     Indexer indexer;
     Searcher searcher;
 
@@ -20,7 +20,7 @@ public class LuceneTester {
             tester = new LuceneTester();
            tester.createIndex();
            // tester.search("total");
-            tester.search("</body>");
+            tester.search("List of countries and outlying territories by total area");
 
         } catch (IOException e) {
             e.printStackTrace();
