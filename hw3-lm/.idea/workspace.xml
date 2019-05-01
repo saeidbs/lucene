@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32607cf5-66b7-43cb-86d1-b6d87e9d5441" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skewfield/Index.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_6.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_6.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/_6.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/segments_7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw3-lm/com/company/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw3-lm/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skewfield/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skewfield/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/out/production/hw3-tf-idf/com/company/step2/LuceneTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/out/production/hw3-tf-idf/com/company/step2/LuceneTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/anotherStep/DocIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/anotherStep/DocIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/anotherStep/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/anotherStep/Indexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/anotherStep/LuceneConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/anotherStep/LuceneConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/anotherStep/LuceneTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/anotherStep/LuceneTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/anotherStep/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/anotherStep/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/step2/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/step2/Indexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/step2/LuceneConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/step2/LuceneConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/step2/LuceneTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/step2/LuceneTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/step2/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/step2/Searcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3-tf-idf/src/com/company/step2/TextFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3-tf-idf/src/com/skewfield/step2/TextFileFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +33,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/skewfield/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="357">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4181#4701#0" expanded="true" />
-                <element signature="e#4700#4701#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/skewfield/Index.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#618#1138#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,7 +69,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Search.java">
+        <entry file="file://$PROJECT_DIR$/src/com/skewfield/Search.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
@@ -73,13 +103,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Search.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Index.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/skewfield/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="269" />
-    <option name="y" value="52" />
+    <option name="x" value="251" />
+    <option name="y" value="12" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -106,7 +138,7 @@
               <item name="hw3-lm" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw3-lm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="skewfield" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,6 +159,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,6 +173,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skewfield.Main" />
+      <module name="hw3-lm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skewfield.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -152,15 +205,15 @@
       <updated>1556650607016</updated>
       <workItem from="1556650611441" duration="2239000" />
       <workItem from="1556652966950" duration="508000" />
-      <workItem from="1556725677165" duration="329000" />
+      <workItem from="1556725677165" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3076000" />
+    <option name="totallyTimeSpent" value="3358000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="269" y="52" width="1400" height="1000" extended-state="0" />
+    <frame x="251" y="12" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21343283" />
@@ -172,7 +225,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2272203" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17531718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,7 +263,7 @@
     <entry file="file://$PROJECT_DIR$/hw3-lm.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Search.java">
+    <entry file="file://$PROJECT_DIR$/src/com/skewfield/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
@@ -220,14 +273,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/skewfield/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="493">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4181#4701#0" expanded="true" />
-            <element signature="e#4700#4701#0" expanded="true" />
+            <element signature="e#618#1138#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/skewfield/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
