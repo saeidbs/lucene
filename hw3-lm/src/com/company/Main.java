@@ -44,23 +44,13 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
 public class Main {
-    private static final String INDEX_DIR = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\Index";
-
-    public static void main(String[] args) throws IOException, Exception {
-
-        /*
-         * To change this license header, choose License Headers in Project Properties.
-         * To change this template file, choose Tools | Templates
-         * and open the template in the editor.
-         */
-
-        //directory contains the lucene indexes
+    private static final String indexPath = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\Index";
 
         //Input folder
-        String docsPath = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\Data";
+        private static final    String docsPath = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\Data";
+    public static void main(String[] args) throws IOException, Exception {
 
-        //Output folder
-        String indexPath = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\Index";
+
 
         //Input Path Variable
         final Path docDir = Paths.get(docsPath);
@@ -90,10 +80,10 @@ public class Main {
 
 
         //Create lucene searcher. It search over a single IndexReader.
-        IndexSearcher searcher = createSearcher();
+        IndexSearcher searcher = Search.createSearcher(indexPath);
 
         //Search indexed contents using search term
-        TopDocs foundDocs = searchInContent("List of countries and outlying territories by total area", searcher);
+        TopDocs foundDocs = Search.searchInContent("List of countries and outlying territories by total area", searcher);
 
         //Total found documents
         System.out.println("Total Results :: " + foundDocs.totalHits);
@@ -146,26 +136,7 @@ public class Main {
         }
     }
 
-    private static TopDocs searchInContent(String textToFind, IndexSearcher searcher) throws Exception {
-        //Create search query
-        QueryParser qp = new QueryParser("contents", new StandardAnalyzer());
-        Query query = qp.parse(textToFind);
 
-        //search the index
-        TopDocs hits = searcher.search(query, 1000);
-        return hits;
-    }
-
-    private static IndexSearcher createSearcher() throws IOException {
-        Directory dir = FSDirectory.open(Paths.get(INDEX_DIR));
-
-        //It is an interface for accessing a point-in-time view of a lucene index
-        IndexReader reader = DirectoryReader.open(dir);
-
-        //Index searcher
-        IndexSearcher searcher = new IndexSearcher(reader);
-        return searcher;
-    }
 }
 
 
