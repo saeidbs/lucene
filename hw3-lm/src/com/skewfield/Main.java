@@ -61,7 +61,7 @@ public class Main {
         //Search indexed contents using search term
         TopDocs foundDocs = Search.searchInContent("list", searcher);
 
-        //Total found documents
+         //Total found documents
         System.out.println("Total Results :: " + foundDocs.totalHits);
 
         //Let's print out the path of files which have searched term
