@@ -1,4 +1,4 @@
-package com.company.anotherStep;
+package com.skewfield.anotherStep;
 
 import java.io.IOException;
 

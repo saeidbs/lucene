@@ -1,4 +1,4 @@
-package com.company.anotherStep;
+package com.skewfield.anotherStep;
 
 public class LuceneConstants {
     public static final String CONTENTS = "contents";
