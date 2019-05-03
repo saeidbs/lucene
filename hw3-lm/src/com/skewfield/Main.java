@@ -58,8 +58,23 @@ public class Main {
         //Create lucene searcher. It search over a single IndexReader.
         IndexSearcher searcher = Search.createSearcher(indexPath);
 
+
+
+
+
+
         //Search indexed contents using search term
-        TopDocs foundDocs = Search.searchInContent("list", searcher);
+
+
+
+
+
+        TopDocs foundDocs = Search.searchInContent("comedy franchise based around a series of films", searcher);
+
+
+
+
+
 
          //Total found documents
         System.out.println("Total Results :: " + foundDocs.totalHits);

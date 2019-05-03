@@ -21,7 +21,7 @@ public class Search {
         Query query = qp.parse(textToFind);
 
         //search the index
-        TopDocs hits = searcher.search(query, 1000);
+        TopDocs hits = searcher.search(query, 10);
         return hits;
     }
 
