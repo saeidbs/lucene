@@ -18,9 +18,9 @@ public class LuceneTester {
         LuceneTester tester;
         try {
             tester = new LuceneTester();
-           //tester.createIndex();
+         //  tester.createIndex();
            // tester.search("total");
-            tester.search("list");
+            tester.search("comedy franchise based around a series of films");
 
         } catch (IOException e) {
             e.printStackTrace();
