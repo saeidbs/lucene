@@ -89,10 +89,16 @@ public class Main {
             System.out.println("Total Results :: " + foundDocs.totalHits);
 
             //Let's print out the path of files which have searched term
+            int j=1;
             for (ScoreDoc sd : foundDocs.scoreDocs) {
+                j++;
                 Document d = searcher.doc(sd.doc);
               //  System.out.println("Path : " + d.get("path") + ", Score : " + sd.score);
+
+
+                String print =" query_id  \\t Q0 \\t document_id \\t "+j+" \\t your_login" ;
                 printWriter.printf("Path : " + d.get("path") + ", Score : " + sd.score +"\n");
+
 
             }
 

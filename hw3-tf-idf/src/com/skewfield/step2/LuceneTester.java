@@ -1,6 +1,8 @@
 package com.skewfield.step2;
 
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import org.apache.lucene.document.Document;
 import org.apache.lucene.queryParser.ParseException;
@@ -17,11 +19,17 @@ public class LuceneTester {
     public static void main(String[] args) {
         LuceneTester tester;
         try {
+            FileWriter fileWriter = new FileWriter(  "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\saeid.txt");
+            PrintWriter printWriter = new PrintWriter(fileWriter);
+
+
             tester = new LuceneTester();
          //  tester.createIndex();
            // tester.search("total");
-            tester.search("comedy franchise based around a series of films");
+            tester.search("comedy franchise based around a series of films",printWriter);
 
+
+            printWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
@@ -40,7 +48,7 @@ public class LuceneTester {
                 +(endTime-startTime)+" ms");
     }
 
-    private void search(String searchQuery) throws IOException, ParseException {
+    private void search(String searchQuery,PrintWriter printWriter) throws IOException, ParseException {
         searcher = new Searcher(indexDir);
         long startTime = System.currentTimeMillis();
         TopDocs hits = searcher.search(searchQuery);
@@ -55,7 +63,7 @@ public class LuceneTester {
 
             //Saeid add this
             System.out.println(scoreDoc.score);
-
+        printWriter.printf(scoreDoc.score+"\n");
             System.out.println("File: "
                     + doc.get(LuceneConstants.FILE_PATH));
         }
