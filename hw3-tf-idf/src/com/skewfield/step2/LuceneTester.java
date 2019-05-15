@@ -71,7 +71,7 @@ public class LuceneTester {
             Document doc = searcher.getDocument(scoreDoc);
 
             //Saeid add this
-            String print =list.get(i)+"  Q0  "+doc.get("path")+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
+            String print =list.get(i)+"  Q0  "+doc.get(LuceneConstants.FILE_PATH)+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
         //    System.out.println(scoreDoc.score);
         printWriter.printf(print+"\n");
        //     System.out.println("File: "
