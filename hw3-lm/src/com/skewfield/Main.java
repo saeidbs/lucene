@@ -73,7 +73,7 @@ public class Main {
 
         FileWriter fileWriter = new FileWriter( "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\saeid.txt");
         PrintWriter printWriter = new PrintWriter(fileWriter);
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < list.size(); i++) {
 
 
 
@@ -89,16 +89,16 @@ public class Main {
             System.out.println("Total Results :: " + foundDocs.totalHits);
 
             //Let's print out the path of files which have searched term
-            int j=1;
+            int j=0;
             for (ScoreDoc sd : foundDocs.scoreDocs) {
                 j++;
                 Document d = searcher.doc(sd.doc);
               //  System.out.println("Path : " + d.get("path") + ", Score : " + sd.score);
 
 
-                String print =" query_id  \\t Q0 \\t document_id \\t "+j+" \\t your_login" ;
-                printWriter.printf("Path : " + d.get("path") + ", Score : " + sd.score +"\n");
-
+                String print =list.get(i)+"  Q0  "+d.get("path")+ "  "+j +" "+sd.score+"  SaeidAfshin1" ;
+               // printWriter.printf("Path : " + d.get("path") + ", Score : " + sd.score +"\n");
+                printWriter.printf(print+"\n");
 
             }
 

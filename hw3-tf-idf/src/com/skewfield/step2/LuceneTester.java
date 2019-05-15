@@ -15,7 +15,7 @@ public class LuceneTester {
     String dataDir = "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\Data";
     Indexer indexer;
     Searcher searcher;
-
+    
     public static void main(String[] args) {
         LuceneTester tester;
         try {
