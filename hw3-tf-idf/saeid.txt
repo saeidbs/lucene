@@ -1,10 +1,10 @@
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text965.txt  1 1.5353696  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text581.txt  2 0.22891712  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text387.txt  3 0.20619798  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text305.txt  4 0.18650126  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text431.txt  5 0.17677614  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text988.txt  6 0.1731421  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text506.txt  7 0.15502292  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text253.txt  8 0.141934  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text417.txt  9 0.13475305  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text701.txt  10 0.12829372  SaeidAfshin1
+Central America  Q0  text268  1 0.42198837  SaeidAfshin1
+Central America  Q0  text279  2 0.25525996  SaeidAfshin1
+Central America  Q0  text934  3 0.25412506  SaeidAfshin1
+Central America  Q0  text94  4 0.24181242  SaeidAfshin1
+Central America  Q0  text970  5 0.21642429  SaeidAfshin1
+Central America  Q0  text405  6 0.213734  SaeidAfshin1
+Central America  Q0  text99  7 0.20825438  SaeidAfshin1
+Central America  Q0  text874  8 0.20330006  SaeidAfshin1
+Central America  Q0  text472  9 0.1790345  SaeidAfshin1
+Central America  Q0  text950  10 0.1709872  SaeidAfshin1

@@ -1,10 +1,10 @@
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text965.txt  1 15.276753  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text581.txt  2 7.378286  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text988.txt  3 6.8281612  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text417.txt  4 6.1792173  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text387.txt  5 6.0553465  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text431.txt  6 5.5914745  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text305.txt  7 5.5231166  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text701.txt  8 5.482807  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text195.txt  9 5.2572107  SaeidAfshin1
-comedy franchise based around a series of films  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text506.txt  10 5.0003414  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text268.txt  1 3.857028  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text279.txt  2 3.2632725  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text934.txt  3 3.1656158  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text874.txt  4 2.5431674  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text99.txt  5 2.5168188  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text472.txt  6 2.4684978  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text25.txt  7 2.445065  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text970.txt  8 2.433337  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text94.txt  9 2.39575  SaeidAfshin1
+central america  Q0  D:\UNIVERSITY\code\bazyabi\lucene\lucene\hw3-tf-idf\Data\text491.txt  10 2.3853803  SaeidAfshin1

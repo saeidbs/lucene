@@ -68,7 +68,7 @@ public class Main {
 
 
         List<String> list =new ArrayList<>();
-        list.add("comedy franchise based around a series of films");
+        list.add("central america");
 
 
         FileWriter fileWriter = new FileWriter( "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\saeid.txt");

@@ -28,7 +28,7 @@ public class LuceneTester {
 
             tester = new LuceneTester();
 
-            list.add("comedy franchise based around a series of films");
+            list.add("Central America");
 
          //  tester.createIndex();
            // tester.search("total");
@@ -71,7 +71,12 @@ public class LuceneTester {
             Document doc = searcher.getDocument(scoreDoc);
 
             //Saeid add this
-            String print =list.get(i)+"  Q0  "+doc.get(LuceneConstants.FILE_PATH)+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
+            String split="\\";
+           String[] printFile=doc.get(LuceneConstants.FILE_NAME).split("\\\\");
+            printFile[printFile.length-1]=printFile[printFile.length-1].replace(".txt","");
+            System.out.println(printFile[printFile.length-1]);
+          //  String print =list.get(i)+"  Q0  "+doc.get(LuceneConstants.FILE_PATH)+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
+            String print =list.get(i)+"  Q0  "+printFile[printFile.length-1]+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
         //    System.out.println(scoreDoc.score);
         printWriter.printf(print+"\n");
        //     System.out.println("File: "
