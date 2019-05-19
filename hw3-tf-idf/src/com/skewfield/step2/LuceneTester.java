@@ -22,13 +22,17 @@ public class LuceneTester {
     public static void main(String[] args) {
         LuceneTester tester;
         try {
-            FileWriter fileWriter = new FileWriter(  "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\saeid.txt");
+            FileWriter fileWriter = new FileWriter(  "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-tf-idf\\tf-idf-results.txt");
             PrintWriter printWriter = new PrintWriter(fileWriter);
 
 
             tester = new LuceneTester();
 
-            list.add("Central America");
+            list.add("central america");
+            list.add("royal academy");
+            list.add("wild west");
+            list.add("fall of the berlin wall");
+            list.add("equations of lower dimensionality");
 
          //  tester.createIndex();
            // tester.search("total");

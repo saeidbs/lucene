@@ -75,7 +75,7 @@ public class Main {
         list.add("equations of lower dimensionality");
 
 
-        FileWriter fileWriter = new FileWriter( "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\saeid.txt");
+        FileWriter fileWriter = new FileWriter( "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\lm-results.txt");
         PrintWriter printWriter = new PrintWriter(fileWriter);
         for (int i = 0; i < list.size(); i++) {
 
