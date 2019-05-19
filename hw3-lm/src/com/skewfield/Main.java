@@ -69,6 +69,10 @@ public class Main {
 
         List<String> list =new ArrayList<>();
         list.add("central america");
+        list.add("royal academy");
+        list.add("wild west");
+        list.add("fall of the berlin wall");
+        list.add("equations of lower dimensionality");
 
 
         FileWriter fileWriter = new FileWriter( "D:\\UNIVERSITY\\code\\bazyabi\\lucene\\lucene\\hw3-lm\\saeid.txt");
@@ -95,8 +99,11 @@ public class Main {
                 Document d = searcher.doc(sd.doc);
               //  System.out.println("Path : " + d.get("path") + ", Score : " + sd.score);
 
+                String[] printFile=d.get("path").split("\\\\");
+                printFile[printFile.length-1]=printFile[printFile.length-1].replace(".txt","");
 
-                String print =list.get(i)+"  Q0  "+d.get("path")+ "  "+j +" "+sd.score+"  SaeidAfshin1" ;
+                //String print =list.get(i)+"  Q0  "+d.get("path")+ "  "+j +" "+sd.score+"  SaeidAfshin1" ;
+                String print =list.get(i)+"  Q0  "+ printFile[printFile.length-1]+ "  "+j +" "+sd.score+"  SaeidAfshin1" ;
                // printWriter.printf("Path : " + d.get("path") + ", Score : " + sd.score +"\n");
                 printWriter.printf(print+"\n");
 

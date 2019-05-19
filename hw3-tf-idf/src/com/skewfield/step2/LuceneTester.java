@@ -74,7 +74,7 @@ public class LuceneTester {
             String split="\\";
            String[] printFile=doc.get(LuceneConstants.FILE_NAME).split("\\\\");
             printFile[printFile.length-1]=printFile[printFile.length-1].replace(".txt","");
-            System.out.println(printFile[printFile.length-1]);
+           // System.out.println(printFile[printFile.length-1]);
           //  String print =list.get(i)+"  Q0  "+doc.get(LuceneConstants.FILE_PATH)+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
             String print =list.get(i)+"  Q0  "+printFile[printFile.length-1]+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
         //    System.out.println(scoreDoc.score);
