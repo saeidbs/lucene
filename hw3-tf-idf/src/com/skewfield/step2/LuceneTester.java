@@ -37,7 +37,7 @@ public class LuceneTester {
          //  tester.createIndex();
            // tester.search("total");
             for (int i=0;i<list.size();i++)
-            tester.search(list,printWriter,i);
+            tester.search(list.get(i),printWriter);
 
 
             printWriter.close();
@@ -59,10 +59,10 @@ public class LuceneTester {
                 +(endTime-startTime)+" ms");
     }
 
-    private void search(List<String> list,PrintWriter printWriter,int i) throws IOException, ParseException {
+    private void search(String searchQuery,PrintWriter printWriter) throws IOException, ParseException {
         searcher = new Searcher(indexDir);
         long startTime = System.currentTimeMillis();
-        TopDocs hits = searcher.search(list.get(i));
+        TopDocs hits = searcher.search(searchQuery);
 
 
         long endTime = System.currentTimeMillis();
@@ -80,7 +80,7 @@ public class LuceneTester {
             printFile[printFile.length-1]=printFile[printFile.length-1].replace(".txt","");
            // System.out.println(printFile[printFile.length-1]);
           //  String print =list.get(i)+"  Q0  "+doc.get(LuceneConstants.FILE_PATH)+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
-            String print =list.get(i)+"  Q0  "+printFile[printFile.length-1]+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
+            String print =searchQuery+"  Q0  "+printFile[printFile.length-1]+ "  "+j +" "+scoreDoc.score+"  SaeidAfshin1" ;
         //    System.out.println(scoreDoc.score);
         printWriter.printf(print+"\n");
        //     System.out.println("File: "
