@@ -46,7 +46,7 @@ public class Main {
             //IndexWriter Configuration
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
             iwc.setOpenMode(OpenMode.CREATE_OR_APPEND);
-            LMJelinekMercerSimilarity sim = new LMJelinekMercerSimilarity(0.009f);
+            LMJelinekMercerSimilarity sim = new LMJelinekMercerSimilarity(0.5f);
             iwc.setSimilarity(sim);
             //IndexWriter writes new index files to the directory
             IndexWriter writer = new IndexWriter(dir, iwc);

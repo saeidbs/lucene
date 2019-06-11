@@ -27,6 +27,7 @@ public class Indexer {
         writer = new IndexWriter(indexDirectory,
                 new StandardAnalyzer(Version.LUCENE_36),true,
                 IndexWriter.MaxFieldLength.UNLIMITED);
+
     }
 
     public void close() throws CorruptIndexException, IOException {
