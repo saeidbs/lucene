@@ -96,6 +96,8 @@ public class Main {
             int j=0;
             for (ScoreDoc sd : foundDocs.scoreDocs) {
                 j++;
+
+
                 Document d = searcher.doc(sd.doc);
               //  System.out.println("Path : " + d.get("path") + ", Score : " + sd.score);
 
