@@ -1,50 +1,21 @@
-central america  Q0  text268  1 0.42198837  SaeidAfshin1
-central america  Q0  text279  2 0.25525996  SaeidAfshin1
-central america  Q0  text934  3 0.25412506  SaeidAfshin1
-central america  Q0  text94  4 0.24181242  SaeidAfshin1
-central america  Q0  text970  5 0.21642429  SaeidAfshin1
-central america  Q0  text405  6 0.213734  SaeidAfshin1
-central america  Q0  text99  7 0.20825438  SaeidAfshin1
-central america  Q0  text874  8 0.20330006  SaeidAfshin1
-central america  Q0  text472  9 0.1790345  SaeidAfshin1
-central america  Q0  text950  10 0.1709872  SaeidAfshin1
-royal academy  Q0  text871  1 0.7851933  SaeidAfshin1
-royal academy  Q0  text252  2 0.5944962  SaeidAfshin1
-royal academy  Q0  text986  3 0.47187465  SaeidAfshin1
-royal academy  Q0  text776  4 0.39259666  SaeidAfshin1
-royal academy  Q0  text996  5 0.2686303  SaeidAfshin1
-royal academy  Q0  text466  6 0.2504756  SaeidAfshin1
-royal academy  Q0  text559  7 0.19629833  SaeidAfshin1
-royal academy  Q0  text438  8 0.17533292  SaeidAfshin1
-royal academy  Q0  text750  9 0.17533292  SaeidAfshin1
-royal academy  Q0  text429  10 0.17353457  SaeidAfshin1
-wild west  Q0  text489  1 0.29475176  SaeidAfshin1
-wild west  Q0  text55  2 0.29475176  SaeidAfshin1
-wild west  Q0  text482  3 0.2845875  SaeidAfshin1
-wild west  Q0  text734  4 0.2456265  SaeidAfshin1
-wild west  Q0  text683  5 0.2451633  SaeidAfshin1
-wild west  Q0  text478  6 0.20235555  SaeidAfshin1
-wild west  Q0  text85  7 0.17344761  SaeidAfshin1
-wild west  Q0  text367  8 0.17335665  SaeidAfshin1
-wild west  Q0  text384  9 0.16352798  SaeidAfshin1
-wild west  Q0  text314  10 0.14453968  SaeidAfshin1
-fall of the berlin wall  Q0  text79  1 0.44764304  SaeidAfshin1
-fall of the berlin wall  Q0  text539  2 0.16738825  SaeidAfshin1
-fall of the berlin wall  Q0  text741  3 0.15781516  SaeidAfshin1
-fall of the berlin wall  Q0  text242  4 0.13262865  SaeidAfshin1
-fall of the berlin wall  Q0  text537  5 0.12885553  SaeidAfshin1
-fall of the berlin wall  Q0  text822  6 0.12381868  SaeidAfshin1
-fall of the berlin wall  Q0  text472  7 0.10522386  SaeidAfshin1
-fall of the berlin wall  Q0  text70  8 0.093424015  SaeidAfshin1
-fall of the berlin wall  Q0  text426  9 0.08908637  SaeidAfshin1
-fall of the berlin wall  Q0  text952  10 0.08399143  SaeidAfshin1
-equations of lower dimensionality  Q0  text170  1 0.51925313  SaeidAfshin1
-equations of lower dimensionality  Q0  text855  2 0.20247754  SaeidAfshin1
-equations of lower dimensionality  Q0  text515  3 0.12879528  SaeidAfshin1
-equations of lower dimensionality  Q0  text616  4 0.0956057  SaeidAfshin1
-equations of lower dimensionality  Q0  text847  5 0.05576999  SaeidAfshin1
-equations of lower dimensionality  Q0  text352  6 0.036798652  SaeidAfshin1
-equations of lower dimensionality  Q0  text476  7 0.036798652  SaeidAfshin1
-equations of lower dimensionality  Q0  text741  8 0.036798652  SaeidAfshin1
-equations of lower dimensionality  Q0  text602  9 0.034165915  SaeidAfshin1
-equations of lower dimensionality  Q0  text931  10 0.03219882  SaeidAfshin1
+central america  Q0  text268  1 0.5967691  SaeidAfshin1
+central america  Q0  text934  2 0.0430681  SaeidAfshin1
+central america  Q0  text472  3 0.02246747  SaeidAfshin1
+central america  Q0  text279  4 0.020349657  SaeidAfshin1
+central america  Q0  enwiki-20190401-pages-articles-multistream-index2  5 0.019806754  SaeidAfshin1
+central america  Q0  text874  6 0.013945449  SaeidAfshin1
+central america  Q0  text139  7 0.013120956  SaeidAfshin1
+central america  Q0  text500  8 0.012870253  SaeidAfshin1
+central america  Q0  text154  9 0.010794733  SaeidAfshin1
+central america  Q0  text25  10 0.010169287  SaeidAfshin1
+royal academy  Q0  text252  1 0.49071935  SaeidAfshin1
+royal academy  Q0  text986  2 0.48771128  SaeidAfshin1
+royal academy  Q0  text871  3 0.32053652  SaeidAfshin1
+royal academy  Q0  text776  4 0.061687283  SaeidAfshin1
+royal academy  Q0  enwiki-20190401-pages-articles-multistream-index2  5 0.015752682  SaeidAfshin1
+royal academy  Q0  text559  6 0.014901961  SaeidAfshin1
+wild west  Q0  text55  1 0.4075031  SaeidAfshin1
+wild west  Q0  text489  2 0.05706185  SaeidAfshin1
+wild west  Q0  text734  3 0.023213616  SaeidAfshin1
+wild west  Q0  text482  4 0.011551406  SaeidAfshin1
+wild west  Q0  enwiki-20190401-pages-articles-multistream-index2  5 0.004760328  SaeidAfshin1
