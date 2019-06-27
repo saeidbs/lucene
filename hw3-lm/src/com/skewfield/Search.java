@@ -61,7 +61,7 @@ public class Search {
 //        for (int i=0;i<strings.length;i++){
 //            System.out.println(strings[i]);
 //        }
-        PhraseQuery phraseQuery = new PhraseQuery(1000,"contents",textToFind.split(" "));
+        PhraseQuery phraseQuery = new PhraseQuery(100,"contents",textToFind.split(" "));
         TopDocs phraseHits = searcher.search(phraseQuery, 1000);
         ScoreDoc[] phraseScoreDocs =phraseHits.scoreDocs;
 

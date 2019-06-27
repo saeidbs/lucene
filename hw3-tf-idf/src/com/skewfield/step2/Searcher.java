@@ -77,7 +77,7 @@ public class Searcher {
         for (int i=0;i<strings.length;i++) {
            phraseQuery.add(new Term(LuceneConstants.CONTENTS, strings[i]), i);
       }
-     phraseQuery.setSlop(1000);
+     phraseQuery.setSlop(100);
         TopDocs phraseHits = indexSearcher.search(phraseQuery, 1000);
         ScoreDoc[] phraseScoreDocs =phraseHits.scoreDocs;
 
