@@ -1,9 +1,9 @@
 package com.skewfield;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
-import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
@@ -11,6 +11,8 @@ import org.apache.lucene.store.FSDirectory;
 
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Search {
 
@@ -24,23 +26,79 @@ public class Search {
 //        for (int i=0;i<strings.length;i++){
 //            System.out.println(strings[i]);
 //        }
-     PhraseQuery phraseQuery = new PhraseQuery(1000,"contents",textToFind.split(" "));
-       TopDocs hits = searcher.search(phraseQuery, 10);
+        PhraseQuery phraseQuery = new PhraseQuery(1000,"contents",textToFind.split(" "));
 
+        TopDocs hits = searcher.search(phraseQuery, 10);
 //        PhraseQuery.Builder builder = new PhraseQuery.Builder();
 //        builder.add(new Term("contents", "central"), 0);
 //        builder.add(new Term("contents", "america"), 1);
 //        builder.setSlop(1);
 //        PhraseQuery pq = builder.build();
 
-       // TopDocs hits = searcher.search(pq, 10);
+        // TopDocs hits = searcher.search(pq, 10);
 
-      // TopDocs hits = searcher.search(query, 10);
-       // Explanation explanation=searcher.explain(query,4);
+        // Explanation explanation=searcher.explain(query,4);
+        //TopDocs hits = searcher.search(query, 10);
+
 
         return hits;
     }
 
+    public static List<ScoreDoc> mergeSearch(String textToFind, IndexSearcher searcher) throws Exception {
+       List<ScoreDoc> list=new ArrayList<>();
+
+        //Create search query
+        QueryParser qp = new QueryParser("contents", new StandardAnalyzer());
+        Query query = qp.parse(textToFind);
+
+        TopDocs standardHits = searcher.search(query, 1000);
+
+        ScoreDoc[] standardScoreDoce =standardHits.scoreDocs;
+        //search the index
+//        String[] strings=textToFind.split(" ");
+//        for (int i=0;i<strings.length;i++){
+//            System.out.println(strings[i]);
+//        }
+        PhraseQuery phraseQuery = new PhraseQuery(1000,"contents",textToFind.split(" "));
+        TopDocs phraseHits = searcher.search(phraseQuery, 1000);
+        ScoreDoc[] phraseScoreDocs =phraseHits.scoreDocs;
+
+
+        Document standardDoc;
+        Document phraseDoc;
+        System.out.println(standardScoreDoce.length);
+        for(int i=0;i<standardScoreDoce.length;i++){
+            standardDoc= searcher.doc(standardScoreDoce[i].doc);
+            ScoreDoc mergeDoc;
+
+            for (int j=0;j<phraseScoreDocs.length;i++){
+               phraseDoc= searcher.doc(phraseScoreDocs[j].doc);
+                if(standardDoc.get("path").equals(phraseDoc.get("path"))){
+                    mergeDoc=standardScoreDoce[i];
+                    mergeDoc.score=(mergeDoc.score+phraseScoreDocs[j].score)/2;
+                    list.add(mergeDoc);
+                    break;
+                }
+
+            }
+            mergeDoc=standardScoreDoce[i];
+            list.add(mergeDoc);
+
+
+        }
+//        PhraseQuery.Builder builder = new PhraseQuery.Builder();
+//        builder.add(new Term("contents", "central"), 0);
+//        builder.add(new Term("contents", "america"), 1);
+//        builder.setSlop(1);
+//        PhraseQuery pq = builder.build();
+
+        // TopDocs hits = searcher.search(pq, 10);
+
+        // Explanation explanation=searcher.explain(query,4);
+
+
+        return list;
+    }
     public static IndexSearcher createSearcher(String indexPath) throws IOException {
         Directory dir = FSDirectory.open(Paths.get(indexPath));
 

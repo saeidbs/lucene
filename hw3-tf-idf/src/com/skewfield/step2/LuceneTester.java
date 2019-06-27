@@ -34,7 +34,7 @@ public class LuceneTester {
             list.add("fall of the berlin wall");
             list.add("equations of lower dimensionality");
 
-          //tester.createIndex();
+        //  tester.createIndex();
            // tester.search("total");
             for (int i=0;i<list.size();i++)
             tester.search(list.get(i),printWriter);

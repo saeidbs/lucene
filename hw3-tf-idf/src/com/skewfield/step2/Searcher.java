@@ -41,12 +41,13 @@ public class Searcher {
 //            phraseQuery.add(new Term(LuceneConstants.CONTENTS, strings[i]), i);
 //
 //        }
-//        phraseQuery.setSlop(1000);
+//        phraseQuery.setSlop(0);
+//
+//        TopDocs phraseQueryTopDocs=indexSearcher.search(phraseQuery, LuceneConstants.MAX_SEARCH);
 //
 //
-//
-//        return indexSearcher.search(phraseQuery, LuceneConstants.MAX_SEARCH);
-        return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
+//        return phraseQueryTopDocs;
+      // return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
     }
 
     public Document getDocument(ScoreDoc scoreDoc)

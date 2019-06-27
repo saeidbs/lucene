@@ -86,15 +86,15 @@ public class Main {
 
 
 
-            TopDocs foundDocs = Search.searchInContent(list.get(i), searcher);
+            List<ScoreDoc> scoreDocs = Search.mergeSearch(list.get(i), searcher);
 
 
             //Total found documents
-            System.out.println("Total Results :: " + foundDocs.totalHits);
+            System.out.println("Total Results :: " + scoreDocs.size());
 
             //Let's print out the path of files which have searched term
             int j=0;
-            for (ScoreDoc sd : foundDocs.scoreDocs) {
+            for (ScoreDoc sd : scoreDocs) {
                 j++;
 
 
@@ -117,6 +117,46 @@ public class Main {
         printWriter.close();
 
     }
+//    for (int i = 0; i < list.size(); i++) {
+//
+//
+//
+////            printWriter.printf("Blog name is %s", "howtodoinjava.com\n");
+////            printWriter.printf("wow");
+//
+//
+//
+//            TopDocs foundDocs = Search.searchInContent(list.get(i), searcher);
+//
+//
+//            //Total found documents
+//            System.out.println("Total Results :: " + foundDocs.totalHits);
+//
+//            //Let's print out the path of files which have searched term
+//            int j=0;
+//            for (ScoreDoc sd : foundDocs.scoreDocs) {
+//                j++;
+//
+//
+//                Document d = searcher.doc(sd.doc);
+//              //  System.out.println("Path : " + d.get("path") + ", Score : " + sd.score);
+//
+//                String[] printFile=d.get("path").split("\\\\");
+//                printFile[printFile.length-1]=printFile[printFile.length-1].replace(".txt","");
+//
+//                //String print =list.get(i)+"  Q0  "+d.get("path")+ "  "+j +" "+sd.score+"  SaeidAfshin1" ;
+//                String print =list.get(i)+"  Q0  "+ printFile[printFile.length-1]+ "  "+j +" "+sd.score+"  SaeidAfshin1" ;
+//               // printWriter.printf("Path : " + d.get("path") + ", Score : " + sd.score +"\n");
+//                printWriter.printf(print+"\n");
+//
+//            }
+//
+//
+//        }
+//
+//        printWriter.close();
+//
+//    }
 
 
 }
