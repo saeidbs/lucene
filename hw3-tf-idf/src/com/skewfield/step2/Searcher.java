@@ -54,7 +54,7 @@ public class Searcher {
 //        return phraseQueryTopDocs;
        return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
     }
-    public  List<ScoreDoc> mergeSearch(String textToFind, IndexSearcher searcher) throws Exception {
+    public  List<ScoreDoc> mergeSearch(String textToFind) throws Exception {
         List<ScoreDoc> list=new ArrayList<>();
 
         //Create search query
@@ -63,7 +63,7 @@ public class Searcher {
                 new StandardAnalyzer(Version.LUCENE_36));
         Query query = queryParser.parse(textToFind);
 
-        TopDocs standardHits = searcher.search(query, 1000);
+        TopDocs standardHits = indexSearcher.search(query, 1000);
 
         ScoreDoc[] standardScoreDoce =standardHits.scoreDocs;
         //search the index
@@ -78,7 +78,7 @@ public class Searcher {
            phraseQuery.add(new Term(LuceneConstants.CONTENTS, strings[i]), i);
       }
      phraseQuery.setSlop(1000);
-        TopDocs phraseHits = searcher.search(phraseQuery, 1000);
+        TopDocs phraseHits = indexSearcher.search(phraseQuery, 1000);
         ScoreDoc[] phraseScoreDocs =phraseHits.scoreDocs;
 
 
@@ -87,13 +87,13 @@ public class Searcher {
         //  System.out.println(standardScoreDoce.length);
         boolean bool=false;
         for(int i=0;i<standardScoreDoce.length;i++){
-            standardDoc= searcher.doc(standardScoreDoce[i].doc);
+            standardDoc= indexSearcher.doc(standardScoreDoce[i].doc);
             ScoreDoc mergeDoc;
 
             //   System.out.println(phraseScoreDocs.length);
             for (int j=0;j<phraseScoreDocs.length;j++){
-                phraseDoc= searcher.doc(phraseScoreDocs[j].doc);
-                if(standardDoc.get("path").equals(phraseDoc.get("path"))){
+                phraseDoc= indexSearcher.doc(phraseScoreDocs[j].doc);
+                if(standardDoc.get(LuceneConstants.FILE_PATH).equals(phraseDoc.get(LuceneConstants.FILE_PATH))){
                     mergeDoc=standardScoreDoce[i];
                     mergeDoc.score=(mergeDoc.score+phraseScoreDocs[j].score)/2;
                     list.add(mergeDoc);
