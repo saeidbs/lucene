@@ -12,6 +12,8 @@ import org.apache.lucene.store.FSDirectory;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Search {
@@ -66,26 +68,57 @@ public class Search {
 
         Document standardDoc;
         Document phraseDoc;
-        System.out.println(standardScoreDoce.length);
+      //  System.out.println(standardScoreDoce.length);
+        boolean bool=false;
         for(int i=0;i<standardScoreDoce.length;i++){
             standardDoc= searcher.doc(standardScoreDoce[i].doc);
             ScoreDoc mergeDoc;
 
-            for (int j=0;j<phraseScoreDocs.length;i++){
+         //   System.out.println(phraseScoreDocs.length);
+            for (int j=0;j<phraseScoreDocs.length;j++){
                phraseDoc= searcher.doc(phraseScoreDocs[j].doc);
                 if(standardDoc.get("path").equals(phraseDoc.get("path"))){
                     mergeDoc=standardScoreDoce[i];
                     mergeDoc.score=(mergeDoc.score+phraseScoreDocs[j].score)/2;
                     list.add(mergeDoc);
+                    bool=true;
                     break;
                 }
 
             }
-            mergeDoc=standardScoreDoce[i];
-            list.add(mergeDoc);
-
+            if(!bool) {
+                mergeDoc = standardScoreDoce[i];
+                list.add(mergeDoc);
+            }
+            bool=false;
 
         }
+
+        list.sort(new Comparator<ScoreDoc>() {
+            @Override
+            public int compare(ScoreDoc o1, ScoreDoc o2) {
+                if(o1.score>o2.score) {
+                    return -1;
+                }else if(o1.score<o2.score){
+                    return 1;
+                }
+                return 0;
+            }
+        });
+
+
+        List<ScoreDoc>finalList=new ArrayList<>();
+
+        for(int i=0;i<10;i++){
+            if(i<list.size()){
+                finalList.add(list.get(i));
+
+            }
+        }
+
+
+
+
 //        PhraseQuery.Builder builder = new PhraseQuery.Builder();
 //        builder.add(new Term("contents", "central"), 0);
 //        builder.add(new Term("contents", "america"), 1);
@@ -96,8 +129,8 @@ public class Search {
 
         // Explanation explanation=searcher.explain(query,4);
 
-
-        return list;
+        //System.out.println("done");
+        return finalList;
     }
     public static IndexSearcher createSearcher(String indexPath) throws IOException {
         Directory dir = FSDirectory.open(Paths.get(indexPath));
