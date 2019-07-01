@@ -88,24 +88,22 @@ public class Searcher {
         boolean bool=false;
         for(int i=0;i<standardScoreDoce.length;i++){
             standardDoc= indexSearcher.doc(standardScoreDoce[i].doc);
-            ScoreDoc mergeDoc;
+            ScoreDoc mergeDoc=standardScoreDoce[i];
 
             //   System.out.println(phraseScoreDocs.length);
             for (int j=0;j<phraseScoreDocs.length;j++){
                 phraseDoc= indexSearcher.doc(phraseScoreDocs[j].doc);
                 if(standardDoc.get(LuceneConstants.FILE_PATH).equals(phraseDoc.get(LuceneConstants.FILE_PATH))){
-                    mergeDoc=standardScoreDoce[i];
                     mergeDoc.score=(mergeDoc.score+phraseScoreDocs[j].score)/2;
-                    list.add(mergeDoc);
                     bool=true;
                     break;
                 }
 
             }
             if(!bool) {
-                mergeDoc = standardScoreDoce[i];
-                list.add(mergeDoc);
+                mergeDoc.score=mergeDoc.score/2;
             }
+            list.add(mergeDoc);
             bool=false;
 
         }

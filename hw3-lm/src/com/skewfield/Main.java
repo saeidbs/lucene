@@ -15,6 +15,8 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.index.IndexWriterConfig.OpenMode;
 
+import org.apache.lucene.search.similarities.BM25Similarity;
+import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.search.similarities.LMJelinekMercerSimilarity;
@@ -47,6 +49,7 @@ public class Main {
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
             iwc.setOpenMode(OpenMode.CREATE_OR_APPEND);
             LMJelinekMercerSimilarity sim = new LMJelinekMercerSimilarity(0.5f);
+
             iwc.setSimilarity(sim);
             //IndexWriter writes new index files to the directory
             IndexWriter writer = new IndexWriter(dir, iwc);

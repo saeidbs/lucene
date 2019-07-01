@@ -1,50 +1,50 @@
 central america  Q0  text268  1 0.50937873  SaeidAfshin1
-central america  Q0  text279  2 0.25525996  SaeidAfshin1
-central america  Q0  text94  3 0.24181242  SaeidAfshin1
-central america  Q0  text970  4 0.21642429  SaeidAfshin1
-central america  Q0  text405  5 0.213734  SaeidAfshin1
-central america  Q0  text99  6 0.20825438  SaeidAfshin1
-central america  Q0  text874  7 0.20330006  SaeidAfshin1
-central america  Q0  text472  8 0.1790345  SaeidAfshin1
-central america  Q0  text950  9 0.1709872  SaeidAfshin1
-central america  Q0  text139  10 0.16985124  SaeidAfshin1
+central america  Q0  text934  2 0.14859658  SaeidAfshin1
+central america  Q0  text279  3 0.12762998  SaeidAfshin1
+central america  Q0  text94  4 0.12090621  SaeidAfshin1
+central america  Q0  text970  5 0.10821214  SaeidAfshin1
+central america  Q0  text405  6 0.106867  SaeidAfshin1
+central america  Q0  text99  7 0.10412719  SaeidAfshin1
+central america  Q0  text874  8 0.10165003  SaeidAfshin1
+central america  Q0  text472  9 0.08951725  SaeidAfshin1
+central america  Q0  text950  10 0.0854936  SaeidAfshin1
 royal academy  Q0  text871  1 0.5528649  SaeidAfshin1
 royal academy  Q0  text252  2 0.5426078  SaeidAfshin1
 royal academy  Q0  text986  3 0.478831  SaeidAfshin1
-royal academy  Q0  text996  4 0.2686303  SaeidAfshin1
-royal academy  Q0  text466  5 0.2504756  SaeidAfshin1
-royal academy  Q0  text776  6 0.22714198  SaeidAfshin1
-royal academy  Q0  text559  7 0.19629833  SaeidAfshin1
-royal academy  Q0  text438  8 0.17533292  SaeidAfshin1
-royal academy  Q0  text750  9 0.17533292  SaeidAfshin1
-royal academy  Q0  text429  10 0.17353457  SaeidAfshin1
+royal academy  Q0  text776  4 0.22714198  SaeidAfshin1
+royal academy  Q0  text996  5 0.13431515  SaeidAfshin1
+royal academy  Q0  text466  6 0.1252378  SaeidAfshin1
+royal academy  Q0  text559  7 0.098149166  SaeidAfshin1
+royal academy  Q0  text438  8 0.08766646  SaeidAfshin1
+royal academy  Q0  text750  9 0.08766646  SaeidAfshin1
+royal academy  Q0  text429  10 0.086767286  SaeidAfshin1
 wild west  Q0  text55  1 0.35112745  SaeidAfshin1
-wild west  Q0  text482  2 0.2845875  SaeidAfshin1
-wild west  Q0  text734  3 0.2456265  SaeidAfshin1
-wild west  Q0  text683  4 0.2451633  SaeidAfshin1
-wild west  Q0  text478  5 0.20235555  SaeidAfshin1
-wild west  Q0  text489  6 0.1759068  SaeidAfshin1
-wild west  Q0  text85  7 0.17344761  SaeidAfshin1
-wild west  Q0  text367  8 0.17335665  SaeidAfshin1
-wild west  Q0  text384  9 0.16352798  SaeidAfshin1
-wild west  Q0  text314  10 0.14453968  SaeidAfshin1
-fall of the berlin wall  Q0  text79  1 0.44764304  SaeidAfshin1
-fall of the berlin wall  Q0  text539  2 0.16738825  SaeidAfshin1
-fall of the berlin wall  Q0  text741  3 0.15781516  SaeidAfshin1
-fall of the berlin wall  Q0  text242  4 0.13262865  SaeidAfshin1
-fall of the berlin wall  Q0  text537  5 0.12885553  SaeidAfshin1
-fall of the berlin wall  Q0  text822  6 0.12381868  SaeidAfshin1
-fall of the berlin wall  Q0  text472  7 0.10522386  SaeidAfshin1
-fall of the berlin wall  Q0  text70  8 0.093424015  SaeidAfshin1
-fall of the berlin wall  Q0  text426  9 0.08908637  SaeidAfshin1
-fall of the berlin wall  Q0  text952  10 0.08399143  SaeidAfshin1
-equations of lower dimensionality  Q0  text170  1 0.51925313  SaeidAfshin1
-equations of lower dimensionality  Q0  text855  2 0.20247754  SaeidAfshin1
-equations of lower dimensionality  Q0  text515  3 0.12879528  SaeidAfshin1
-equations of lower dimensionality  Q0  text616  4 0.0956057  SaeidAfshin1
-equations of lower dimensionality  Q0  text847  5 0.05576999  SaeidAfshin1
-equations of lower dimensionality  Q0  text352  6 0.036798652  SaeidAfshin1
-equations of lower dimensionality  Q0  text476  7 0.036798652  SaeidAfshin1
-equations of lower dimensionality  Q0  text741  8 0.036798652  SaeidAfshin1
-equations of lower dimensionality  Q0  text602  9 0.034165915  SaeidAfshin1
-equations of lower dimensionality  Q0  text931  10 0.03219882  SaeidAfshin1
+wild west  Q0  text489  2 0.1759068  SaeidAfshin1
+wild west  Q0  text482  3 0.14229375  SaeidAfshin1
+wild west  Q0  text734  4 0.12281325  SaeidAfshin1
+wild west  Q0  text683  5 0.12258165  SaeidAfshin1
+wild west  Q0  text478  6 0.101177774  SaeidAfshin1
+wild west  Q0  text85  7 0.086723804  SaeidAfshin1
+wild west  Q0  text367  8 0.086678326  SaeidAfshin1
+wild west  Q0  text384  9 0.08176399  SaeidAfshin1
+wild west  Q0  text314  10 0.07226984  SaeidAfshin1
+fall of the berlin wall  Q0  text79  1 0.22382152  SaeidAfshin1
+fall of the berlin wall  Q0  text539  2 0.08369412  SaeidAfshin1
+fall of the berlin wall  Q0  text741  3 0.07890758  SaeidAfshin1
+fall of the berlin wall  Q0  text242  4 0.066314325  SaeidAfshin1
+fall of the berlin wall  Q0  text537  5 0.06442776  SaeidAfshin1
+fall of the berlin wall  Q0  text822  6 0.06190934  SaeidAfshin1
+fall of the berlin wall  Q0  text472  7 0.05261193  SaeidAfshin1
+fall of the berlin wall  Q0  text70  8 0.046712007  SaeidAfshin1
+fall of the berlin wall  Q0  text426  9 0.044543184  SaeidAfshin1
+fall of the berlin wall  Q0  text952  10 0.041995715  SaeidAfshin1
+equations of lower dimensionality  Q0  text170  1 0.25962657  SaeidAfshin1
+equations of lower dimensionality  Q0  text855  2 0.10123877  SaeidAfshin1
+equations of lower dimensionality  Q0  text515  3 0.06439764  SaeidAfshin1
+equations of lower dimensionality  Q0  text616  4 0.04780285  SaeidAfshin1
+equations of lower dimensionality  Q0  text847  5 0.027884996  SaeidAfshin1
+equations of lower dimensionality  Q0  text352  6 0.018399326  SaeidAfshin1
+equations of lower dimensionality  Q0  text476  7 0.018399326  SaeidAfshin1
+equations of lower dimensionality  Q0  text741  8 0.018399326  SaeidAfshin1
+equations of lower dimensionality  Q0  text602  9 0.017082958  SaeidAfshin1
+equations of lower dimensionality  Q0  text931  10 0.01609941  SaeidAfshin1
