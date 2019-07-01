@@ -17,7 +17,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Search {
-
+public static int TopNDocs=10;
     public static TopDocs searchInContent(String textToFind, IndexSearcher searcher) throws Exception {
         //Create search query
         QueryParser qp = new QueryParser("contents", new StandardAnalyzer());
@@ -30,7 +30,7 @@ public class Search {
 //        }
         PhraseQuery phraseQuery = new PhraseQuery(1000,"contents",textToFind.split(" "));
 
-        TopDocs hits = searcher.search(phraseQuery, 10);
+       // TopDocs hits = searcher.search(phraseQuery, 10);
 //        PhraseQuery.Builder builder = new PhraseQuery.Builder();
 //        builder.add(new Term("contents", "central"), 0);
 //        builder.add(new Term("contents", "america"), 1);
@@ -40,7 +40,7 @@ public class Search {
         // TopDocs hits = searcher.search(pq, 10);
 
         // Explanation explanation=searcher.explain(query,4);
-        //TopDocs hits = searcher.search(query, 10);
+        TopDocs hits = searcher.search(query, 10);
 
 
         return hits;
@@ -108,7 +108,7 @@ public class Search {
 
         List<ScoreDoc>finalList=new ArrayList<>();
 
-        for(int i=0;i<10;i++){
+        for(int i=0;i<TopNDocs;i++){
             if(i<list.size()){
                 finalList.add(list.get(i));
 

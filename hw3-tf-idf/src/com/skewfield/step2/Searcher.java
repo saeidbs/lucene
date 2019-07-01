@@ -24,7 +24,7 @@ public class Searcher {
     IndexSearcher indexSearcher;
     QueryParser queryParser;
     Query query;
-
+    public static int TopNDocs=10;
     public Searcher(String indexDirectoryPath)
             throws IOException {
         Directory indexDirectory =
@@ -123,7 +123,7 @@ public class Searcher {
 
         List<ScoreDoc>finalList=new ArrayList<>();
 
-        for(int i=0;i<10;i++){
+        for(int i=0;i<TopNDocs;i++){
             if(i<list.size()){
                 finalList.add(list.get(i));
 
